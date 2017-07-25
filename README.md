@@ -1,27 +1,25 @@
-# PickAndPlace
+# Robotics Arm: Pick & Place
 The Amazon Challenge Pick and Place Robot Kinematics project.
-# Robotics Arm: Pick & Place
 
-## Forward and Reverse Kinematics
+### Forward and Inverse Kinematics
+### Douglas Teeple
+### Udacity Robotics Nanodegree Program
+### July 2017
 
-## Douglas Teeple
-
-## Udacity Robotics Nanodegree Program
-
-## July 2017
-
-
-# Robotics Arm: Pick & Place
-
-## Forward and Inverse Kinematics
 
 ## Introduction
 
-### The object of the Pick and Place project is to write inverse kinematics formulae
+The object of the Pick and Place project is to write inverse kinematics formulae that implement the Amazon Pick and Place challenge, to correctly pick an item off a shelf at a random location and place it in a bin. To succeed the implementation must do this 8 out of 10 times.
 
-### that implement the Amazon Pick and Place challenge, to correctly pick an item of
+Kinematics refers to position in space without regard to weights or forces. Inverse kinematics in this project involves the calculation of robot joint angles to position a Kuka KR210 robot arm at the position of an item so it can be grasped and follow a trajectory to release the item in a bin. Inverse kinematics is challenging as there are multiple solutions to the problem.
 
-### a shelf at a random location and place it in a bin. To succeed the implementation
+The project involves calculating the inverse kinemtics equations and modifying the file IK_server.py to implement the solution in the context of an RVIZ/gazebo environment that has been set up by the course creators.
 
-### must do this 8 out of 10 times.
+This image shows the gazebo environment with the shelf, the items (blue cylinders) and the Kuka robot arm in the simulation environment:
+
+![project environment](images/RobotPicknPlace-Jun19.jpg)
+
+
+
+
 
