@@ -1,11 +1,6 @@
 # Robotics Arm: Pick & Place
-The Amazon Challenge Pick and Place Robot Kinematics project.
 
-### Forward and Inverse Kinematics
-### Douglas Teeple
-### Udacity Robotics Nanodegree Program
-### July 2017
-
+### Forward and Inverse Kinematics - The Amazon Challenge Pick and Place Robot Kinematics project.
 
 ## Introduction
 
@@ -18,6 +13,13 @@ The project involves calculating the inverse kinemtics equations and modifying t
 This image shows the gazebo environment with the shelf, the items (blue cylinders) and the Kuka robot arm in the simulation environment:
 
 ![project environment](images/RobotPicknPlace-Jun19.jpg)
+
+Full documentation can be found here: 
+
+<a href="https://github.com/douglasteeple/PickAndPlace/PickAndPlace.pdf" target=_blank>PackAndPlace.pdf</a>
+
+## The Process
+
 
 
 
